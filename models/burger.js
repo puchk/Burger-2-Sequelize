@@ -6,7 +6,7 @@ module.exports = function(sequelize, Sequelize) {
     },
     devoured: {
       type: Sequelize.BOOLEAN,
-      allowNull: false
+      defaultValue: false
     }
   });
   return Burger;
